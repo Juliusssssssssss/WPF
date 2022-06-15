@@ -1,0 +1,53 @@
+﻿<Window x:Class="Button6._5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Button6._5"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <RadioButton Content="Red"
+                     Name="Red"
+                     HorizontalAlignment="Left"
+                     Margin="10,10,0,0"
+                     VerticalAlignment="Top"
+                     Checked="CheckRed" />
+        <RadioButton Content="Yellow"
+                     Name="Yellow"
+                     HorizontalAlignment="Left"
+                     Margin="10,30,0,0"
+                     VerticalAlignment="Top"
+                     Checked="CheckYellow" />
+        <RadioButton Content="Green"
+                     Name="Green"
+                     HorizontalAlignment="Left"
+                     Margin="10,50,0,0"
+                     VerticalAlignment="Top"
+                     Checked="CheckGreen" />
+        <RadioButton Content="Hide"
+                     Name="Hide"
+                     HorizontalAlignment="Left"
+                     Margin="722,30,0,0"
+                     VerticalAlignment="Top"
+                     Checked="Hide_Checked" />
+        <RadioButton Content="Show"
+                     HorizontalAlignment="Left"
+                     Margin="722,10,0,0"
+                     VerticalAlignment="Top"
+                     Checked="Show_Checked" />
+        <RadioButton Content="Inactive"
+                     HorizontalAlignment="Left"
+                     Margin="722,70,0,0"
+                     VerticalAlignment="Top"
+                     Checked="RadioButton_Checked_1" />
+        <RadioButton Content="Active"
+                     HorizontalAlignment="Left"
+                     Margin="722,50,0,0"
+                     VerticalAlignment="Top"
+                     Checked="RadioButton_Checked" />
+
+    </Grid>
+</Window>

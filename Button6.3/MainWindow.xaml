@@ -1,0 +1,33 @@
+﻿<Window x:Class="Button6._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Button6._3"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Canvas Cursor="IBeam"
+            Margin="0,0,0,-83">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/4741bb99d8e23c51278e9b90b78b4d60.jpg" />
+        </Canvas.Background>
+        <PasswordBox Canvas.Left="340"
+                     Canvas.Top="363"
+                     Width="120"
+                     Name="password"
+                     RenderTransformOrigin="0.492,3.092" />
+        <TextBox Canvas.Left="340"
+                 Canvas.Top="340"
+                 Text=""
+                 Name="username"
+                 TextWrapping="Wrap"
+                 Width="120" />
+        <Button Content="Log-In"
+                Canvas.Left="489"
+                Name="button"
+                Canvas.Top="352"
+                Click="button_Click" />
+    </Canvas>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Button6._3</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="4741bb99d8e23c51278e9b90b78b4d60.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="4741bb99d8e23c51278e9b90b78b4d60.jpg" />
+  </ItemGroup>
+
+</Project>

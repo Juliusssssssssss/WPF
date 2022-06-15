@@ -1,0 +1,43 @@
+﻿<Window x:Class="Button6._4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Button6._4"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <CheckBox Content="Mystery CheckBox 1"
+                  Name="BoxOne"
+                  HorizontalAlignment="Left"
+                  Margin="33,39,0,0"
+                  VerticalAlignment="Top"
+                  Checked="BoxOne_Checked"
+                  Unchecked="BoxOne_Uncheked"/>
+        <CheckBox Content="Mystery CheckBox 2"
+                  Name="BoxTwo"
+                  HorizontalAlignment="Left"
+                  Margin="33,68,0,0"
+                  VerticalAlignment="Top"
+                  RenderTransformOrigin="-1.72,-8.528"
+                  Checked="BoxTwo_Checked"
+                  Unchecked="BoxTwo_Uncheked" />
+        <CheckBox Content="Mystery CheckBox 3"
+                  Name="BoxThree"
+                  HorizontalAlignment="Left"
+                  Margin="33,98,0,0"
+                  VerticalAlignment="Top"
+                  Checked="BoxThree_Checked"
+                  Unchecked="BoxThree_Unchecked" />
+        <CheckBox Content="Collection of MysteryBoxes 1"
+                  HorizontalAlignment="Left"
+                  Margin="10,10,0,0"
+                  VerticalAlignment="Top"
+                  Checked="CheckBox_Checked" 
+                  IsThreeState="True"
+                  Indeterminate="Collection_Indeterminate" />
+
+    </Grid>
+</Window>
